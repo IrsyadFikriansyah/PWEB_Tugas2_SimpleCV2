@@ -1,0 +1,98 @@
+body {
+  font-family: Helvetica, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  line-height: 1.5;
+}
+
+dt {
+  font-weight: bold;
+  padding-top: 10px;
+}
+
+dd {
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 15%;
+  border: 10px solid;
+  border-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+li {
+  padding: 3px;
+}
+
+.cv {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.faded {
+  color: grey;
+  font-size: small;
+}
+
+.timeline {
+  padding-top: 2px;
+  color: darkgrey;
+}
+
+.aboutMe,
+.skillset,
+.toolset,
+.workExperience,
+.education,
+.contact {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img:hover {
+  box-shadow: 0 0 10px rgba(0, 94, 255, 0.6);
+}
+
+.aboutMe:hover,
+.skillset:hover,
+.toolset:hover,
+.workExperience:hover,
+.education:hover,
+.contact:hover {
+  max-width: 800px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  padding: 20px;
+  padding-top: 5px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.5);
+}
